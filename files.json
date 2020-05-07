@@ -1,0 +1,5 @@
+{
+    "nvm": "$HOME/.nvm/default-packages",
+    "pyenv": "$(pyenv root)/default-packages",
+    "rbenv": "$(ryenv root)/default-gems"
+}
