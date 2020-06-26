@@ -41,8 +41,8 @@ dotfile_plugin_default_packages_cleanup() {
 dotfile_plugin_default_packages_install_prerequisites() {
 
     # These should already be installed but try and install some packages
-    restrict_package_manager brew | install_package coreutils
-    install_package jq
+    packages restrict brew | packages install coreutils
+    packages install jq
 }
 
 dotfile_plugin_default_packages_clear_existing() {
